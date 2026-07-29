@@ -1,3 +1,8 @@
+theia@theiadocker-dshreeya05:/home/project/final_project/oaqjp-final-project-emb-ai$ python3
+Python 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> emotion_detector("I love my life")
 {
     'anger': 0.64999825,
     'disgust': 0.03349073,
